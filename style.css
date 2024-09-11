@@ -25,9 +25,10 @@ header{
     align-items: center;
 }
 .logo{
-    height: 64px;
-    width: 64px;
-    background-color: lightgrey;
+    height: 70px;
+    width: 90px;
+    background-image: url('/img/logo_sete_church.png');
+    background-size: 100px;
 }
 .menu ul{
     display: flex;
@@ -55,10 +56,10 @@ main{
 
 .acao button{
     height: 80px;
-    width: 200px;
-    background-color:black ;
+    width: 400px;
+    background-color: lightpink;
     font-size: 40px;
-    color: white;
+    color: darkgoldenrod;
 }
 .social{
     width: 90%;
@@ -75,7 +76,9 @@ main{
 .imagem{
     height: 100%;
     width: 50%;
-    background-color: lightgrey;
+    background-image: url('/img/flyer_novo.jpeg');
+    background-size: 800px;
+    justify-content: right;
 }
 footer{
     height: 100px;
